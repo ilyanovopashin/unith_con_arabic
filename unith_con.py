@@ -3,7 +3,7 @@ import json
 import requests
 app = Flask(__name__)
 HEADERS={'Content-Type': 'application/json'}
-BOT_WEBHOOK='https://app.graphlogic.ai/connector/webim/webim_message/eb63aebbbef5d2a6429ab779ccd1ae01/bot_api_webhook'
+BOT_WEBHOOK='https://app.graphlogic.ai/connector/webim/webim_message/df01cecb6b4aa254aabad39accde709a/bot_api_webhook'
 WEBHOOK_SITE='https://webhook.site/b03c80bf-6ae0-4222-bd81-4725376b81a8'
 
 @app.route('/conversation/<user_id>/message', methods=['post'])
